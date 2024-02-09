@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    background-image: url('Alangilan-entrance-facade.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur-container {
+    background-color: rgba(255, 0, 0, 0.7);
+    backdrop-filter: blur(0.5px) brightness(80%);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 4rem; 
+    text-align: center;
+    border-radius: 2rem; 
+}
+
+.container-content {
+    position: relative;
+    z-index: 1;
+}
